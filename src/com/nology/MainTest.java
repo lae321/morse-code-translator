@@ -6,13 +6,6 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class MainTest {
-
-  @Test
-  @DisplayName("Stuff")
-  void translate() {
-    assertEquals("sos", MorseCodeTranslator.translate("... --- ..."));
-  }
-
   @Test
   @DisplayName("Translate SOS")
   void translate() {
