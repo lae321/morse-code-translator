@@ -3,6 +3,7 @@ package com.nology;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+	      MorseCodeTranslator t = new MorseCodeTranslator();
+        t.translate(".... . .-.. .-.. --- / .-- --- .-. .-.. -..");
     }
 }
